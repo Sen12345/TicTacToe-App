@@ -9,7 +9,7 @@ let data = ["", "", "", "", "", "", "", "", ""];
 function TicTacToe() {
   const [lock, setLock] = useState(false);
   const [count, setCount] = useState(0);
-  const [theWinner, setTheWinner] = useState(false);
+
   // Create the text reference needed to display a congrat message when the player wins
   const titleRef = useRef(null);
 
